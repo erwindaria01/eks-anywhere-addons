@@ -7,4 +7,6 @@ metadata:
 spec:
   interval: 30s
   url: oci://registry.stormforge.io/library/stormforge-agent
+  ref:
+    tag: latest
 
