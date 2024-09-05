@@ -10,7 +10,7 @@ spec:
       chart: stormforge-agent
       reconcileStrategy: ChartVersion
       sourceRef:
-        kind: HelmRepository
+        kind: OCIRepository
         name: stormforge-charts
         namespace: flux-system
       version: 2.14.0
